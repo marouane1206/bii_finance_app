@@ -1,4 +1,4 @@
-# IBridgePy
+# Businness Intelligence & Insights - Fianancial Application
 -----------------------------------------------------
 If you want to have a quick start, please go to folder simple_examples
 You will find 3 examples in the folder:
