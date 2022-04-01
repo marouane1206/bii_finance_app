@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}	
+<div>
+<h1>Strategies</h1>
+
+<!-- Table of strategies-->
+<table class="ui inverted compact table">
+        
+        {% for strategy in strategies %}
+        <tr>
+            <td><a href="/strategy/{{strategy.id}}">{{ strategy.name }}</a></td>
+        </tr>
+        {% endfor %}
+        
+    </table>
+    <!-- End of stock table -->
+    
+</div>
+{%endblock%}

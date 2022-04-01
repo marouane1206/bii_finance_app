@@ -1,0 +1,11 @@
+ibapi
+psycopg2
+asyncpg
+asyncio
+fastapi
+iexfinance
+pycountry
+hdx-python-country
+financedatabase
+beautifulsoup4
+dataclasses

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}	
+<div>
+	<h1>Orders</h1>
+	
+	<!-- Table of strategies-->
+	<table class="ui inverted compact table">
+    {% for order in orders %}    
+       <tr>
+           <td> {{order.created_at}}<td>
+           <td> {{order.symbol}}<td>
+           <td> {{order.side}}<td>
+           <td> {{order.filled_avg_price}}<td>
+           <td> {{order.filled_qty}}<td>
+           <td> {{order.status}}<td>
+       </tr>
+    {%endfor%}
+    </table>
+    <!-- End of stock table -->
+    
+</div>
+{%endblock%}
